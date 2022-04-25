@@ -1,10 +1,10 @@
-import PersonCard from "./components/PersonCard";
 import {Container} from "./styles"
+import { PersonCardList } from "./components/PersonCardList";
 
 function App() {
   return (
     <Container>
-      <PersonCard />
+      <PersonCardList />
     </Container>
   );
 }

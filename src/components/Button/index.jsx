@@ -1,8 +1,9 @@
 import { Container } from "./styles";
 
-const Button = ({backgroundColor, children, color}) => {
+const Button = ({backgroundColor, children, color, onClick}) => {
+
     return(
-        <Container backgroundColor={backgroundColor} color={color}>{children}</Container>
+        <Container onClick={onClick} backgroundColor={backgroundColor} color={color}>{children}</Container>
     )
 }
 

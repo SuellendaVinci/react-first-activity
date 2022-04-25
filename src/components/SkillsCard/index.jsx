@@ -10,8 +10,8 @@ const SkillsCard = () => {
                 <SkillButton>JavaScript</SkillButton>
                 <SkillButton>React</SkillButton>
                 <SkillButton>Git</SkillButton>
-                <SkillButton>Inglês</SkillButton>
-                <SkillButton>Alemão</SkillButton>
+                <SkillButton>English</SkillButton>
+                <SkillButton>German</SkillButton>
             </WrapperSkills>
         </Container>
     )
